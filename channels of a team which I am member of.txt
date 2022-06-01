@@ -1,0 +1,45 @@
+GET : https://graph.microsoft.com/v1.0/teams/{team-id}/channels
+
+Authorization Type : Bearer Token
+
+Path Variable : {team-id}
+
+Resoponse :
+
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#teams('d2f0102e-39f3-4c24-a986-9adf0c7e7d3a')/channels",
+    "@odata.count": 3,
+    "value": [
+        {
+            "id": "19:srn13RhCC7RIsqdVoqaSdAc0pjZj58XIhYFmMbneH581@thread.tacv2",
+            "createdDateTime": "2022-04-04T04:58:26.483Z",
+            "displayName": "General",
+            "description": "EY Client Technology Team Bangladesh",
+            "isFavoriteByDefault": null,
+            "email": "7486eed9.EYGS.onmicrosoft.com@in.teams.ms",
+            "webUrl": "https://teams.microsoft.com/l/channel/19%3asrn13RhCC7RIsqdVoqaSdAc0pjZj58XIhYFmMbneH581%40thread.tacv2/General?groupId=d2f0102e-39f3-4c24-a986-9adf0c7e7d3a&tenantId=5b973f99-77df-4beb-b27d-aa0c70b8482c",
+            "membershipType": "standard"
+        },
+        {
+            "id": "19:aa2d64e3c0454cbaa864694e27f34149@thread.tacv2",
+            "createdDateTime": "2022-04-04T05:22:03.586Z",
+            "displayName": "Support",
+            "description": "If something isn't working as expected, use this channel to get help.",
+            "isFavoriteByDefault": true,
+            "email": "",
+            "webUrl": "https://teams.microsoft.com/l/channel/19%3aaa2d64e3c0454cbaa864694e27f34149%40thread.tacv2/Support?groupId=d2f0102e-39f3-4c24-a986-9adf0c7e7d3a&tenantId=5b973f99-77df-4beb-b27d-aa0c70b8482c",
+            "membershipType": "standard"
+        },
+        {
+            "id": "19:b800163be3a14f0fa81be92561490b65@thread.tacv2",
+            "createdDateTime": "2022-04-04T05:49:40.771Z",
+            "displayName": "Sync",
+            "description": "Use this channel to post your availability status.",
+            "isFavoriteByDefault": true,
+            "email": "",
+            "webUrl": "https://teams.microsoft.com/l/channel/19%3ab800163be3a14f0fa81be92561490b65%40thread.tacv2/Sync?groupId=d2f0102e-39f3-4c24-a986-9adf0c7e7d3a&tenantId=5b973f99-77df-4beb-b27d-aa0c70b8482c",
+            "membershipType": "standard"
+        }
+    ]
+}
+
