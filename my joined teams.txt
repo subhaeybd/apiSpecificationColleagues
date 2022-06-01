@@ -1,0 +1,33 @@
+GET : https://graph.microsoft.com/v1.0/me/joinedTeams
+
+Authorization Type : Bearer Token
+
+Response :
+{
+    "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#teams",
+    "@odata.count": 1,
+    "value": [
+        {
+            "id": "d2f0102e-39f3-4c24-a986-9adf0c7e7d3a",
+            "createdDateTime": null,
+            "displayName": "Client Tech Team BD",
+            "description": "EY Client Technology Team Bangladesh",
+            "internalId": null,
+            "classification": null,
+            "specialization": null,
+            "visibility": null,
+            "webUrl": null,
+            "isArchived": false,
+            "isMembershipLimitedToOwners": null,
+            "memberSettings": null,
+            "guestSettings": null,
+            "messagingSettings": null,
+            "funSettings": null,
+            "discoverySettings": null,
+            "summary": null
+        }
+    ]
+}
+
+
+
